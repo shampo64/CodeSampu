@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Andrea Sampugnaro — CV</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9.3pt;
+    line-height: 1.4;
+    color: #2a2a2a;
+    margin: 0;
+  }
+  .page { display: flex; width: 210mm; min-height: 297mm; position: relative; overflow: hidden; }
+
+  /* decorative accent shape, top-right of page */
+  .blob {
+    position: absolute;
+    top: -30mm; right: -25mm;
+    width: 90mm; height: 90mm;
+    background: #d98e3f;
+    opacity: 0.16;
+    border-radius: 45%;
+  }
+
+  .sidebar {
+    width: 34%;
+    background: #1b3a4b;
+    color: #eef3f5;
+    padding: 14mm 8mm 10mm 10mm;
+  }
+  .sidebar h1 {
+    font-size: 17pt; margin: 0; line-height: 1.15;
+    letter-spacing: 0.5pt;
+  }
+  .sidebar .role {
+    font-size: 9.5pt; letter-spacing: 1.5pt; text-transform: uppercase;
+    color: #d98e3f; margin: 3pt 0 12pt 0; font-weight: 600;
+  }
+  .photo-block { text-align: center; margin-bottom: 10pt; }
+  .photo-block img {
+    width: 30mm; height: 30mm; object-fit: cover; object-position: 50% 15%;
+    border-radius: 50%; border: 2pt solid #d98e3f;
+  }
+  .photo-block h1, .photo-block .role { text-align: center; }
+  .sidebar .contact-box {
+    background: rgba(255,255,255,0.08);
+    border-left: 2pt solid #d98e3f;
+    padding: 6pt 8pt; margin-bottom: 12pt; font-size: 8.4pt;
+  }
+  .sidebar .contact-box div { margin-bottom: 2pt; }
+  .sidebar h2 {
+    font-size: 9pt; text-transform: uppercase; letter-spacing: 1pt;
+    color: #ffffff; border-bottom: 0.75pt solid #4a7185;
+    padding-bottom: 3pt; margin: 12pt 0 6pt 0;
+  }
+  .sidebar ul { margin: 0 0 4pt 0; padding-left: 11pt; }
+  .sidebar li { margin-bottom: 2pt; font-size: 8.3pt; }
+  .sidebar .skill-cat-label { font-size: 8.5pt; font-weight: 700; color: #cfe0e8; margin: 6pt 0 1pt 0; }
+  .sidebar p { font-size: 8.3pt; margin: 0 0 3pt 0; }
+
+  .main {
+    width: 66%;
+    padding: 14mm 12mm 10mm 10mm;
+  }
+  .main h2 {
+    font-size: 12pt; text-transform: uppercase; letter-spacing: 1pt;
+    color: #1b3a4b; margin: 0 0 6pt 0;
+    border-bottom: 1.5pt solid #d98e3f; padding-bottom: 3pt;
+  }
+  .main section { margin-bottom: 11pt; }
+  .main p.profile { font-size: 9.3pt; margin: 0; }
+  .job { margin-bottom: 8pt; }
+  .job h3 { font-size: 10pt; margin: 0; color: #1b3a4b; }
+  .job .meta { font-size: 8.3pt; color: #b5721f; font-weight: 600; margin: 0 0 3pt 0; }
+  .job ul { margin: 0; padding-left: 12pt; }
+  .job li { margin-bottom: 1.5pt; }
+
+  .consent {
+    font-size: 7pt; color: #888; margin-top: 10pt;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="blob"></div>
+  <aside class="sidebar">
+    <div class="photo-block">
+      <img src="../assets/foto-profilo.jpg" alt="Andrea Sampugnaro">
+      <h1>Andrea<br>Sampugnaro</h1>
+      <p class="role">Tecnico Audio Luci Video</p>
+    </div>
+
+    <div class="contact-box">
+      <div><strong>Tel</strong> 351 964 4455</div>
+      <div><strong>Email</strong> sampugnaro.andrea@gmail.com</div>
+      <div><strong>Indirizzo</strong> Via dei Gelsi 3, None (TO)</div>
+      <div><strong>Patente</strong> B, automunito</div>
+    </div>
+
+    <h2>Competenze tecniche</h2>
+    <div class="skill-cat-label">Audio</div>
+    <ul>
+      <li>Midas M32, Behringer X32/Wing</li>
+      <li>Dante L1/L2, d&amp;b ArrayCalc</li>
+      <li>RCF, JBL, d&amp;b, Crown, Powersoft</li>
+    </ul>
+    <div class="skill-cat-label">Luci</div>
+    <ul>
+      <li>ChamSys MagicQ, DMX/Art-Net</li>
+      <li>Rigging e trussing, follow spot/RoboSpot</li>
+    </ul>
+    <div class="skill-cat-label">Elettrico</div>
+    <ul>
+      <li>Quadri 125A/63A/32A, CEI 11-27</li>
+    </ul>
+    <div class="skill-cat-label">Video</div>
+    <ul>
+      <li>Ledwall/Novastar, proiettori, Resolume</li>
+    </ul>
+
+    <h2>Certificazioni</h2>
+    <ul>
+      <li>Dante L1 e L2</li>
+      <li>CEI 11-27</li>
+      <li>DPI III cat. — lavori in quota</li>
+      <li>Preposto</li>
+      <li>Antincendio Rischio Alto</li>
+      <li>Primo Soccorso</li>
+      <li>Sicurezza D.Lgs. 81/08</li>
+      <li>Patentino muletto</li>
+    </ul>
+
+    <h2>Lingue</h2>
+    <p>Italiano madrelingua<br>Francese A1/A2</p>
+  </aside>
+
+  <main class="main">
+    <section>
+      <h2>Profilo</h2>
+      <p class="profile">Tecnico audio/luci/video con 25 anni di esperienza nel live event, dai club ai grandi festival. Responsabile di palco su eventi ad alta affluenza: coordinamento di audio, luci, video, impianto elettrico e sicurezza, con diagnosi e risoluzione rapida di guasti in tempo reale. Autonomo, abituato a coordinarsi con produzione e colleghi sotto scadenze strette.</p>
+    </section>
+
+    <section>
+      <h2>Esperienze</h2>
+      <div class="job">
+        <h3>Tecnico Audio / Luci / Video — Engovers S.n.c.</h3>
+        <p class="meta">2022 – oggi</p>
+        <ul>
+          <li>Responsabile di palco su eventi indoor e outdoor ad alta affluenza (festival musicali, fiere, moda, eventi aziendali)</li>
+          <li>Diagnosi e risoluzione rapida di guasti tecnici, anche durante lo spettacolo</li>
+          <li>Gestione elettrica di palco e assistenza audio/luci in autonomia</li>
+          <li>Tra le produzioni seguite: Kappa FuturFestival, Sonic Park Stupinigi, Salone del Libro di Torino, Milano Fashion Week, eventi Loro Piana e Stellantis</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Tecnico del Suono e Road Manager — Denimor (band)</h3>
+        <p class="meta">2006 – 2012</p>
+        <ul><li>Logistica di concerti e tour, assistenza audio in studio e live</li></ul>
+      </div>
+      <div class="job">
+        <h3>Tecnico del Suono — locali e teatri (Machito, Tortuga, The Hustler e altri)</h3>
+        <p class="meta">2002 – 2023</p>
+        <ul><li>Gestione audio in eventi musicali e teatrali</li></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formazione</h2>
+      <div class="job">
+        <h3>Qualifica Professionale Programmatore CNC</h3>
+        <p class="meta">Arti e Mestieri, Grugliasco — 2002</p>
+      </div>
+    </section>
+
+    <p class="consent">Autorizzo il trattamento dei dati personali ai sensi del GDPR (Regolamento UE 2016/679).</p>
+  </main>
+</div>
+</body>
+</html>
