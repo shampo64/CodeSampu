@@ -2,10 +2,12 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Repository status
+## Purpose
 
-This repository is currently empty scaffolding — it contains no source code, build system, dependencies, or tests yet. There are no commands to build, lint, or test because there is nothing to build, lint, or test.
+This repository holds the source content for the owner's curriculum vitae (CV/resume) and is used to generate exports on demand in whichever format is requested: Word (.docx), PDF, or an HTML/web version.
 
-When the first real code is added to this repository, update this file with:
-- Build, lint, and test commands (including how to run a single test)
-- High-level architecture notes once the codebase has structure worth documenting
+## Working conventions
+
+- Keep a single source of truth for the CV content (experience, education, skills) in the repo; generate docx/PDF/HTML outputs from it on request rather than maintaining separate copies by hand.
+- Use the `docx` skill for Word output, the `pdf` skill for PDF output, and an HTML/Artifact for a web version.
+- Generated export files (.docx, .pdf, .html) are build outputs, not the source of truth — don't hand-edit them expecting changes to persist; edit the source content and regenerate instead.
