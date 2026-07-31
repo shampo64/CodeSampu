@@ -8,6 +8,13 @@ This repository holds the source content for the owner's curriculum vitae (CV/re
 
 ## Working conventions
 
-- `cv.md` is the single source of truth for the CV content (experience, education, skills). Generate docx/PDF/HTML outputs from it on request rather than maintaining separate copies by hand; when the owner gives updates, edit `cv.md` first, then regenerate exports.
-- Use the `docx` skill for Word output, the `pdf` skill for PDF output, and an HTML/Artifact for a web version.
-- Generated export files (.docx, .pdf, .html) are build outputs, not the source of truth — don't hand-edit them expecting changes to persist; edit the source content and regenerate instead.
+- `cv.md` is the single source of truth for the CV content (experience, education, skills). When the owner gives updates, edit `cv.md` first, then manually mirror the change into the affected template(s) under `templates/` (there is no automated markdown-to-HTML sync — the templates are hand-authored HTML that must be kept in step with `cv.md`).
+- `docs/linee-guida-cv.md` has the researched rules (structure, ATS compatibility, sector conventions) that both templates are meant to follow — check it before making layout or content decisions.
+- Generated export files in `exports/` (.pdf, .docx, .html) are build outputs, not the source of truth — don't hand-edit them expecting changes to persist.
+
+## PDF generation
+
+- `templates/cv-ats.html` — single-column layout, plain text only (no images/icons), safe for ATS/portal uploads. Renders to `exports/cv.pdf`.
+- `templates/cv-visual.html` — two-column layout with a sidebar and a circular profile photo (`assets/foto-profilo.jpg`), styled for direct/human submissions. Renders to `exports/cv-visual.pdf`.
+- Both are rendered with [WeasyPrint](https://weasyprint.org/) (`pip install weasyprint`) via `scripts/render_pdf.sh`, which runs `python3 -m weasyprint templates/<file>.html exports/<file>.pdf` for each template. Run it from the repo root after editing a template.
+- For Word output use the `docx` skill; for a web version render an HTML/Artifact — templates/ currently only covers the PDF path.
