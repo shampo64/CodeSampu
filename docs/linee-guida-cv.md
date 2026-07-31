@@ -8,6 +8,8 @@ Relazione delle regole ricavate da fonti specializzate (italiane e internazional
 - **Font e leggibilità**: font sans-serif, corpo 10-12pt.
 - **Lunghezza**: idealmente una pagina A4; con molte informazioni (come nel tuo caso, con 25 anni di esperienza) è accettabile un layout a due colonne per stare compatti senza tagliare contenuti rilevanti.
 - **Ordine delle sezioni**: la struttura guida il recruiter — le informazioni più rilevanti per il ruolo vanno per prime, i dettagli meno decisivi (es. hobby) per ultimi.
+- **Stile per il settore spettacolo/eventi**: il formato Europass rigido è sconsigliato in questo ambito — è accettato, e anzi atteso, un template moderno con un tocco di identità/colore, mantenendo comunque leggibilità e credibilità professionale.
+- **Icone e grafica vs compatibilità ATS**: le informazioni (competenze, contatti, lingue) vanno sempre espresse come testo vero, non solo tramite icone-immagine o infografiche — i sistemi ATS spesso usati anche da agenzie eventi/service non leggono le immagini e possono perdere quei dati. Più di 2 elementi grafici nel CV riduce il tasso di match ATS del ~27% (Jobscan, 2024). Un po' di colore/accento visivo va bene, purché il contenuto resti sempre testuale.
 - **No elementi che confondono un ATS** (Applicant Tracking System): evitare grafici, tabelle complesse e formattazioni non standard; usare intestazioni di sezione standard ("Esperienza", "Formazione", "Competenze").
 
 ## 2. Contenuto delle sezioni
@@ -53,3 +55,9 @@ Relazione delle regole ricavate da fonti specializzate (italiane e internazional
 - [Top 10 ATS Resume Mistakes to Avoid in 2026 | Careerflow.ai](https://www.careerflow.ai/blog/ats-resume-mistakes-to-avoid)
 - [Tecnico audio, video e luci dello spettacolo dal vivo | Regione Valle d'Aosta](https://lavoro.regione.vda.it/Media/Lavoro/Hierarchy/34/3486/Tecnico%20dello%20spettacolo.pdf)
 - [Normative e certificazioni service audio luci | Serata Chic Technology](https://www.seratachic.it/normative-e-certificazioni-service-audio-luci/)
+- [CV spettacolo, audiovisivo e eventi | ilCVperfetto](https://www.ilcvperfetto.it/curriculum-vitae/esempi/intrattenimento)
+- [Il layout del CV: modelli ed esempi per la tua candidatura | ResumeLab](https://resumelab.com/it/curriculum-vitae/layout)
+- [ATS-Friendly Resume vs. Graphic Resume: What Actually Gets Read? | Jofibo](https://jofibo.com/blog/ats-friendly-resume-vs-graphic-resume)
+- [Should You Use Graphics or Icons in Resumes? Expert Guide | Resumly](https://www.resumly.ai/blog/should-you-use-graphics-or-icons-in-resumes-expert-guide)
+- [Why Infographic Resumes Fail ATS (and What to Use Instead in 2026) | Hireflow](https://hireflow.net/blog/why-infographic-resumes-fail-ats-and-what-to-use-instead)
+- [Technician Resume Examples & Templates | Resume.io](https://resume.io/resume-examples/technician)
